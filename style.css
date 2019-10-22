@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+div h2{
+    font-family: 'Oleo Script';
+    font-size: 50px;
+    margin:auto;
+    text-align:center;
+    position: relative;
+    margin-top: 110px;
+    color: #ffffffb4;
+    letter-spacing: 1px;
+}
+.btn1{
+    width:70px;
+    height:70px;
+    cursor: pointer;
+    margin: 2px;
+    border: none;
+    background-color: #4b098647;
+    color: white;
+    font-size: 20px;
+}
+.btn1:hover{
+    border: 2px white solid;
+    font-size: 30px;
+    color: white;
+}
+input[type=text]{
+    width: 294px;
+    color: rgb(102, 112, 162);
+    border: none;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, #ff0000cf, #7700b4bf);
+}
